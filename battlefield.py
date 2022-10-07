@@ -1,4 +1,3 @@
-from termios import VDISCARD
 from dinosaur import Dinosaur
 from robot import Robot
 # As a developer, I want a Dinosaur to have the ability to 
