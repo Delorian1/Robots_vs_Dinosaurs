@@ -9,9 +9,9 @@ class Dinosaur:
         self.health =  50
 
     def attack(self, robot):
-        robot.health -= self.attack
-        print(f'{robot.name} was attacked by {self.name} and did {self.attack_power} damage.')
-      
+        robot.health -= self.attack_power
+        print(f'{robot.name} was attacked by {self.name} and sustained {self.attack_power} damage.')
+        print(f'{robot.name} has {robot.health} health remaining.')
     
         
     

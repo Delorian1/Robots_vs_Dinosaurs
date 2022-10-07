@@ -19,13 +19,16 @@ class Battlefield:
         
     def run_game(self):
         self.display_welcome()
-           
+        self.battle_phase()   
     def display_welcome(self):
         print(f' Welcome to Deus ex Machina, where the monsters of future and past collide')
     
     def battle_phase(self):
-        pass 
-    #calL THE attack function and set up a function to make them attack, robot add into a while loop
+        self.dinosaur.attack(self.robot)
+        self.robot.attack(self.dinosaur)
+
+    #calL THE attack function and set up a function to make them attack, robot 
+    # add into a while loop
 
     # def reduce_health(amount):
     #     self.health -= amount
