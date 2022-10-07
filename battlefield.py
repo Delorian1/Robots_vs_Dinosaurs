@@ -18,21 +18,21 @@ class Battlefield:
         
     def run_game(self):
         self.display_welcome()
-    
+           
     def display_welcome(self):
         print(f' Welcome to Mechanixx, where the future and the past collide')
     
     def battle_phase(self):
         pass
 
-    def reduce_health(amount):
-        self.health -= amount
+    # def reduce_health(amount):
+    #     self.health -= amount
 
-    def fight():
-        dinosaur_reduce_health(robot.calculate.damage())
-        dinosaur.check_dead()
-        robot_reduce_health(dinosaur.calculate.damage())
-        robot.check_dead()
+    # def fight():
+    #     dinosaur_reduce_health(robot.calculate.damage())
+    #     dinosaur.check_dead()
+    #     robot_reduce_health(dinosaur.calculate.damage())
+    #     robot.check_dead()
 
     def display_winner(self):
         pass

@@ -12,7 +12,8 @@ import random
 # (5 points): As a developer, I want to create Fleet and Herd classes, 
 # allowing for a list of 3 Robots to battle against a list of 3 Dinosaurs.
 
-
+battlefild = Battlefield()
+battlefield.run_game()
 
 Mecha_Godzilla_weapons_list = ["proton_scream","plasma_punch", "rotating_buzzsaw"]
 Godzilla_weapons_list = ["atomic beam", "Godzilla_breath", "Mothra_powerup"]
