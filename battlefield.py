@@ -1,3 +1,4 @@
+from termios import VDISCARD
 from dinosaur import Dinosaur
 from robot import Robot
 # As a developer, I want a Dinosaur to have the ability to 
@@ -20,10 +21,11 @@ class Battlefield:
         self.display_welcome()
            
     def display_welcome(self):
-        print(f' Welcome to Mechanixx, where the future and the past collide')
+        print(f' Welcome to Deus ex Machina, where the monsters of future and past collide')
     
     def battle_phase(self):
-        pass
+        pass 
+    #calL THE attack function and set up a function to make them attack, robot add into a while loop
 
     # def reduce_health(amount):
     #     self.health -= amount

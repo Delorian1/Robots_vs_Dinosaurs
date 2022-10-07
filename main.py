@@ -15,8 +15,11 @@ import random
 battlefild = Battlefield()
 battlefield.run_game()
 
+
 Mecha_Godzilla_weapons_list = ["proton_scream","plasma_punch", "rotating_buzzsaw"]
 Godzilla_weapons_list = ["atomic beam", "Godzilla_breath", "Mothra_powerup"]
 list_of_weapons = [Mecha_Godzilla_weapons_list, Godzilla_weapons_list ]
 
 print("list_of_weapons")
+
+Mecha_jaegers_list = ["Gypsy_Avenger","Saber_Athena","Bracer_Phoenix","Guarian_Bravo","Striker_Eureka","Cherno_Alpha","Crimson_Typhoon"
