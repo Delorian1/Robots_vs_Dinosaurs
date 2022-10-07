@@ -1,13 +1,6 @@
 from battlefield import Battlefield
 import random
 
-Mecha_Godzilla_weapons_list = ["proton_scream","plasma_punch", "rotating_buzzsaw"]
-Godzilla_weapons_list = ["atomic beam", "Godzilla_breath", "Mothra_powerup"]
-list_of_weapons = [Mecha_Godzilla_weapons_list, Godzilla_weapons_list ]
-
-print("list_of_weapons")
-
-
 # As a developer, I want the battle to conclude once either 
 # the robot or the dinosaur has its health points reduced to zero.
 
@@ -21,3 +14,8 @@ print("list_of_weapons")
 
 
 
+Mecha_Godzilla_weapons_list = ["proton_scream","plasma_punch", "rotating_buzzsaw"]
+Godzilla_weapons_list = ["atomic beam", "Godzilla_breath", "Mothra_powerup"]
+list_of_weapons = [Mecha_Godzilla_weapons_list, Godzilla_weapons_list ]
+
+print("list_of_weapons")

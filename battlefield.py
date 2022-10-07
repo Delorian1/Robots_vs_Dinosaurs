@@ -13,17 +13,26 @@ from robot import Robot
 
 class Battlefield:
     def __init__(self):
-        self.robot = "Mecha_Godzilla"
-        self.dinosaur = "Godzilla"
+        self.robot = robot("Mecha_Godzilla")
+        self.dinosaur = dinosaur("Godzilla")
         
     def run_game(self):
-        pass
+        self.display_welcome()
     
     def display_welcome(self):
-        print("Mecha Quest")
+        print(f' Welcome to Mechanixx, where the future and the past collide')
     
     def battle_phase(self):
         pass
+
+    def reduce_health(amount):
+        self.health -= amount
+
+    def fight():
+        dinosaur_reduce_health(robot.calculate.damage())
+        dinosaur.check_dead()
+        robot_reduce_health(dinosaur.calculate.damage())
+        robot.check_dead()
 
     def display_winner(self):
         pass
