@@ -20,7 +20,7 @@ class Battlefield:
         self.display_welcome()
         self.battle_phase()   
     def display_welcome(self):
-        print(f' Welcome to Deus ex Machina, where the monsters of future and past collide')
+        print(f'Welcome to Deus ex Machina, where the monsters of future and past collide!')
     
     def battle_phase(self):
         self.dinosaur.attack(self.robot)
