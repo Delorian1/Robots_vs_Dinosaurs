@@ -12,7 +12,7 @@ import random
 # (5 points): As a developer, I want to create Fleet and Herd classes, 
 # allowing for a list of 3 Robots to battle against a list of 3 Dinosaurs.
 
-battlefild = Battlefield()
+battlefield = Battlefield()
 battlefield.run_game()
 
 

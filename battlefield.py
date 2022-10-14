@@ -13,8 +13,8 @@ from robot import Robot
 
 class Battlefield:
     def __init__(self):
-        self.robot = robot("Mecha_Godzilla")
-        self.dinosaur = dinosaur("Godzilla")
+        self.robot = Robot("Mecha Godzilla")
+        self.dinosaur = Dinosaur("Godzilla")
         
     def run_game(self):
         self.display_welcome()
