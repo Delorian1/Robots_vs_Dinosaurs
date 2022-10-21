@@ -1,5 +1,4 @@
 from battlefield import Battlefield
-import random
 
 # As a developer, I want the battle to conclude once either 
 # the robot or the dinosaur has its health points reduced to zero.

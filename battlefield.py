@@ -18,15 +18,19 @@ class Battlefield:
         
     def run_game(self):
         self.display_welcome()
-        self.battle_phase()   
+        self.battle_phase()  
+
     def display_welcome(self):
         print(f'Welcome to Deus ex Machina, where the monsters of future and past collide!')
     
     def battle_phase(self):
-        self.dinosaur.attack(self.robot)
-        self.robot.attack(self.dinosaur)
-
-    
+        while self.robot.health > 0 and self.dinosaur.health > 0:
+            self.dinosaur.attack(self.robot)
+            self.robot.attack(self.dinosaur)
+        if self.dinosaur.health_power <= 0:
+            print()   
+        if self.robot.health_power <=0:  
+            
     def display_winner(self):                
         if self.dinosaur.health > 0 and self.robot.health == 0:
             print("Godzilla WINS!")
