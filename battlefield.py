@@ -27,9 +27,8 @@ class Battlefield:
         while self.robot.health > 0 and self.dinosaur.health > 0:
             self.dinosaur.attack(self.robot)
             if self.robot.health > 0:
-               self.dinosaur.attack(self.robot) 
-      
-            
+               self.robot.attack(self.dinosaur) 
+               
     def display_winner(self):                
         if self.dinosaur.health > 0:
             print("Godzilla WINS!")
