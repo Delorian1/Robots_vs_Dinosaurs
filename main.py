@@ -14,15 +14,3 @@ from battlefield import Battlefield
 battlefield = Battlefield()
 battlefield.run_game()
 
-
-
-# Mecha_Godzilla_weapons_list = ["proton_scream","plasma_punch", "rotating_buzzsaw"]
-# Godzilla_weapons_list = ["atomic beam", "Godzilla_breath", "Mothra_powerup"]
-# list_of_weapons = [Mecha_Godzilla_weapons_list, Godzilla_weapons_list ]
-# print("list_of_weapons")
-
-
-# Mecha_jaegers_list = ["Gypsy_Avenger","Saber_Athena","Bracer_Phoenix","Guarian_Bravo","Striker_Eureka","Cherno_Alpha","Crimson_Typhoon"]
-# Dinosaur_titans_list = ["Rodan", "King_Ghidora", "M.U.T.O.", "Scylla","Gameron","Bunyip", "Typhon", "Kraken"]
-# list_of_players = [Mecha_jaegers_list, Dinosaur_titans_list]
-# print("list of players")
