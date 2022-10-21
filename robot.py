@@ -13,6 +13,9 @@ class Robot:
         print(f'{dinosaur.name} was attacked by {self.name} and sustained {self.active_weapon.attack_power} damage.')
         print(f'{dinosaur.name} has {dinosaur.health} health remaining.')
 
+        while robot.health > 0:
+            continue
+
     
       
         
