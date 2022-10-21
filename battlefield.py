@@ -18,7 +18,8 @@ class Battlefield:
         
     def run_game(self):
         self.display_welcome()
-        self.battle_phase()  
+        self.battle_phase()
+        self.display_winner()
 
     def display_welcome(self):
         print(f'Welcome to Deus ex Machina, where the monsters of future and past collide!')
