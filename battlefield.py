@@ -26,15 +26,14 @@ class Battlefield:
     def battle_phase(self):
         while self.robot.health > 0 and self.dinosaur.health > 0:
             self.dinosaur.attack(self.robot)
-            self.robot.attack(self.dinosaur)
-        if self.dinosaur.health_power <= 0:
-            print()   
-        if self.robot.health_power <=0:  
+            if self.robot.health > 0:
+               self.dinosaur.attack(self.robot) 
+      
             
     def display_winner(self):                
-        if self.dinosaur.health > 0 and self.robot.health == 0:
+        if self.dinosaur.health > 0:
             print("Godzilla WINS!")
-        elif self.robot.self.health > 0 and self.dinosaur.health == 0:
+        elif self.robot.self.health > 0:
             print("Mecha Godzilla WINS!")
        
 
