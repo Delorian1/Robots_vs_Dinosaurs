@@ -25,6 +25,23 @@ class Battlefield:
     def battle_phase(self):
         self.dinosaur.attack(self.robot)
         self.robot.attack(self.dinosaur)
+    
+    def display_winner(self):
+                      
+        if dinosaur.health > 0:
+            print("Godzilla  WINS!")
+        elif robot.health > 0:
+            print("Mecha Godzilla WINS!")
+       
+
+
+
+ 
+   
+
+
+
+
 
     #calL THE attack function and set up a function to make them attack, robot 
     # add into a while loop
@@ -38,5 +55,5 @@ class Battlefield:
     #     robot_reduce_health(dinosaur.calculate.damage())
     #     robot.check_dead()
 
-    def display_winner(self):
-        pass
+    
+        
